@@ -3,9 +3,9 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('¡Hola Mundo desde Node.js en Docker!');
+  res.send('¡App corriendo super chingona!');
 });
 
 app.listen(port, '0.0.0.0', () => {
-  console.log(`Servidor corriendo en el puerto ${port}`);
+  console.log(`App corriendo super chingona en el puerto ${port}`);
 });
